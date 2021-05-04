@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+  
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="./style.css" />
+  
+  <title>Track Expenses</title>
+</head>
+<body>
+
+  <h1>Track Expenses</h1>
+
+  <div class="table">
+    <div class="grid">
+      <h4 class="headingItem">Item</h4>
+      <h4 class="headingAmount">Amount</h4>
+    </div>
+
+    <div id="inputs">
+      <div class="grid">
+        <input type="text"placeholder="item name" class="item" />
+        <input type="number" placeholder="amount" class="amount" />
+      </div>
+      
+    </div>
+
+    <div class="grid btn">
+      <div></div>
+      <button onclick="addItem()">Add Item</button>
+    </div>
+
+    <div class="footer grid">
+      <h4 class="footerTotal">Total</h4>
+      <h4 class="footerAmount total">$0</h4>
+    </div>
+  </div>
+  
+  <script src="./script.js"> </script>
+</body>
+</html>
